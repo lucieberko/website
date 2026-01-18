@@ -62,7 +62,7 @@ export default function News() {
               <img
                 alt=""
                 src={post.imageUrl}
-                className="w-full h-full rounded-2xl bg-white object-contain"
+                className="w-full h-full rounded-2xl bg-white object-cover"
               />
               <div className="absolute inset-0 rounded-2xl inset-ring inset-ring-gray-900/10" />
             </a>

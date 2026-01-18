@@ -21,7 +21,7 @@ const featured = [
     title: 'A common symptom geometry of mood improvement under sertraline and placebo associated with distinct neural patterns',
     href: 'https://doi.org/10.1017/S0033291725100962',
     descriptionKey: 'pub2.description',
-    imageUrl: '/PC_distrib_brain.png',
+    imageUrl: '/PC_brain_summary.png',
     date: '2025',
     datetime: '2025',
     category: { title: 'Research Article', href: '#' },
@@ -33,7 +33,7 @@ const featured = [
     title: 'Ketamine disrupts consciousness in healthy participants in relation with psychotic-like symptoms',
     href: 'https://doi.org/10.1101/2025.11.06.687042',
     descriptionKey: 'pub3.description',
-    imageUrl: '/Summary3.png',
+    imageUrl: '/Summary3_large.png',
     date: '2025',
     datetime: '2025',
     category: { title: 'Preprint', href: '#' },
@@ -64,7 +64,7 @@ export function Featured() {
                 <img
                   alt=""
                   src={post.imageUrl}
-                  className="w-full h-full rounded-2xl bg-white object-contain"
+                  className="w-full h-full rounded-2xl bg-white object-cover"
                 />
                 <div className="absolute inset-0 rounded-2xl inset-ring inset-ring-gray-900/10" />
               </a>

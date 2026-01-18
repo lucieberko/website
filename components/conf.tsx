@@ -22,7 +22,7 @@ const featured = [
     titleEn: 'Therapeutic use of psychedelics',
     href: 'https://www.youtube.com/watch?v=43uLxpI2-WA',
     descriptionKey: 'talk2.description',
-    imageUrl: '/Federation_Addiction.png',
+    imageUrl: '/Federation_Addiction_large.png',
     date: '2023',
     datetime: '2023',
     category: { title: 'Fédération Addiction', href: '#' },
@@ -64,7 +64,7 @@ export function Featured() {
               <img
                 alt=""
                 src={talk.imageUrl}
-                className="w-full h-full rounded-2xl  bg-white object-contain"
+                className="w-full h-full rounded-2xl  bg-white object-cover"
               />
               <div className="absolute inset-0 rounded-2xl inset-ring inset-ring-gray-900/10" />
             </a>

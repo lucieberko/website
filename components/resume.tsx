@@ -93,10 +93,24 @@ export default function ResumePage() {
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl">
-            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              {t('title')}
-            </h2>
-            <p className="mt-2 text-lg/8 text-gray-600">{t('subtitle')}</p>
+            <div className="flex items-start justify-between gap-8">
+              <div className="flex-1">
+                <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+                  {t('title')}
+                </h2>
+                <p className="mt-2 text-lg/8 text-gray-600">{t('subtitle')}</p>
+              </div>
+
+              <div className="flex-shrink-0">
+                <div className="relative w-24 h-24 sm:w-24 sm:h-24">
+                  <img
+                    src="/photoID.png"
+                    alt="Photo de profil"
+                    className="rounded-lg object-cover drop-shadow-md ring-gray-200"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
