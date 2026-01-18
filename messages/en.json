@@ -1,0 +1,229 @@
+{
+  "Metadata": {
+    "title": "Lucie Berkovitch",
+    "description": "Personal website of Lucie Berkovitch, psychiatrist and researcher specializing in psychedelics for mental health treatment"
+  },
+  "Navigation": {
+    "about": "About",
+    "publications": "Publications",
+    "conf": "Talks",
+    "press": "Press",
+    "resume": "Resume",
+    "contact": "Contact me",
+    "openMenu": "Open main menu",
+    "closeMenu": "Close menu"
+  },
+  "Footer": {
+    "copyright": "© {year} Lucie Berkovitch. All rights reserved."
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "fr": "Français"
+  },
+  "HomePage": {
+    "hero": {
+      "intro": "I am <name>Lucie Berkovitch</name>, French psychiatrist and researcher specializing in the use of <specialty>psychedelics in psychiatry</specialty>. My work focuses on understanding the mechanisms of action of these substances and how they could be implemented effectively and safely in public hospitals to help people with psychiatric conditions.",
+      "description": "I am currently part of the <institute>Neuromodulation Institute</institute> at <hospital>Hôpital Sainte-Anne</hospital> in Paris, where I am responsible for an axis of care and research on psychedelics. We are conducting several clinical trials on the therapeutic potential of psychedelics, as well as fundamental studies. My research is part of a growing body of evidence suggesting the effectiveness of these substances in psychiatry, particularly for treating depression, anxiety, and addiction."
+    },
+    "news": {
+      "title": "Latest news and articles",
+      "subtitle": "Here are some highlighted articles and updates from my work and research.",
+      "pub1": {
+        "description": "In this show, I talk about the latest news regarding psychedelic research in France (in French).",
+        "category" : "Radio show France Culture"
+      },
+      "pub2": {
+        "description": "This experimental electroencephalography study examines how ketamine affects consciousness in healthy volunteers in relation to the onset of reversible psychotic symptoms.",
+        "category" : "Preprint"
+      },
+      "pub3": {
+        "description": "In this tribune, we advocate for compassionate access to psychedelics in end-of-life contexts (in French).",
+        "category" : "Tribune Le Monde"
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Get in touch",
+    "intro": "Whether it be for research collaborations, speaking engagements, or just to say hello, feel free to reach out via email at",
+    "or": "or at"
+  },
+  "PressPage": {
+    "title": "Non-academic\ncommunications",
+    "subtitle": "Find some of my participations in the media and press.",
+    "categories": {
+      "television": "Television",
+      "press": "Newspapers",
+      "radio": "Radio",
+      "scientificMagazines": "Scientific Magazines",
+      "podcasts": "Podcasts",
+      "videos": "Videos",
+      "publicEvents": "Public Events"
+    }
+  },
+  "PublicationsPage": {
+    "featured": {
+      "title": "Featured publications",
+      "subtitle": "A selection of my most relevant and notable works.",
+      "pub1": {
+      "description": "This review examines how schizophrenia disrupts the neural mechanisms underlying conscious perception. We synthesize evidence showing that patients with schizophrenia exhibit impaired access to conscious awareness, with altered attentional amplification and reduced stability of conscious representations."
+      },
+      "pub2": {
+        "description": "This study reveals that antidepressant medication and placebo produce similar patterns of symptom improvement in depression, yet through fundamentally different neural mechanisms. Using advanced neuroimaging and computational modeling, we demonstrate that clinical outcomes can converge despite divergent brain activity patterns."
+      },
+      "pub3": {
+        "description": "This experimental study investigates how ketamine affects conscious awareness in healthy volunteers. We demonstrate that ketamine-induced alterations in consciousness correlate with the emergence of psychotic-like symptoms, providing a controlled model to understand the neural basis of both psychedelic experiences and psychosis-related phenomena."
+      }
+    },
+    "all": {
+      "title": "All publications",
+      "subtitle": "All written works presented at various conferences and journals."
+    }
+  },
+  "ResumePage": {
+    "title": "Resume",
+    "subtitle": "Education, positions, awards, and teaching experience.",
+    "categories": {
+      "education": "Education",
+      "currentPositions": "Current Positions",
+      "previousPositions": "Previous Positions",
+      "awards": "Grants and Prizes",
+      "funding": "Funding",
+      "teaching": "Teaching",
+      "associative": "Associative Experience and Society Memberships"
+    },
+    "education": {
+      "item1": {
+        "title": "State Diploma of Doctor of Medicine, specialized in psychiatry",
+        "description": ""
+      },
+      "item2": {
+        "title": "PhD in Neurosciences",
+        "description": "UPMC Université Pierre et Marie Curie, supervised by Stanislas Dehaene and Raphaël Gaillard, France"
+      },
+      "item3": {
+        "title": "Medicine Doctor",
+        "description": "Paris Descartes, France"
+      },
+      "item4": {
+        "title": "Master, Cogmaster",
+        "description": "ENS, EHESS, Paris Descartes, France"
+      },
+      "item5": {
+        "title": "Psychiatry residency",
+        "description": "Paris Descartes, France"
+      },
+      "item6": {
+        "title": "Medical School",
+        "description": "Paris Descartes, France"
+      }
+    },
+    "currentPositions": {
+      "item1": {
+        "title": "Psychiatrist",
+        "description": "Neuromodulation Institute, Sainte Anne hospital, GHU Paris Psychiatrie et Neurosciences, Paris, France. CENPARE consultations (Centre pour Pathologies Résistantes) dedicated to treatment-resistant psychiatric disorders and Bad-Trip consultations for patients who had substance-induced challenging experiences or psychiatric disorders"
+      },
+      "item2": {
+        "title": "PI at the Computational Brain Team",
+        "description": "In charge of the psychedelic research axis of the Neuromodulation Institute, clinical trials and fundamental studies"
+      }
+    },
+    "previousPositions": {
+      "item1": {
+        "title": "Post-doctorate associate",
+        "description": "Anticevic/Cho Lab at Yale School of Medicine, New Haven, Connecticut, USA"
+      },
+      "item2": {
+        "title": "Psychiatrist, head of an inpatient unit specialized in resistant psychiatric disorders",
+        "description": "Hospitalo-University department at Sainte Anne Hospital, Paris, France"
+      }
+    },
+    "awards": {
+      "item1": "l'Oréal-Unesco Foundation French Young Talents Award For Women In Science",
+      "item2": "ECNP Travel award",
+      "item3": "Philippe Foundation grant",
+      "item4": "UNAFAM award",
+      "item5": "Prix Bettencourt pour les Jeunes Chercheurs",
+      "item6": "PhD Thesis awards of the French Neuroscience Society",
+      "item7": "Second prize for the best research publication at the French Congress of Psychiatry",
+      "item8": "Scientific committee award at the Congrès de l'Encéphale"
+    },
+    "funding": {
+      "item1": {
+        "title": "ANR JCJC \"PSILOTRAZ: Dissociating psychedelic and therapeutic effects of psilocybin in treatment-resistant depression: a proof-of-concept study\"",
+        "description": "PI: Lucie Berkovitch. €392,710"
+      },
+      "item2": {
+        "title": "MILDECA - Grant for organizing the symposium \"Psychedelic Medicine: Scientific Perspective\"",
+        "description": "Psychedelic Medicine Section of AFPBN. €20,961"
+      },
+      "item3": {
+        "title": "PHRC-I \"TODAY: Efficacy and safety of Treatment of obsessive-compulsive disorder with lysergic acid diethylamide: randomized controlled trial\"",
+        "description": "PI: Luc Mallet. €439,972"
+      },
+      "item4": {
+        "title": "Cities partnerships Programme Funds",
+        "description": "In collaboration with Lucie Charles, UCL"
+      },
+      "item5": {
+        "title": "PhD grant, Thèse Médico-Scientifique",
+        "description": "Fondation pour la Recherche médicale"
+      },
+      "item6": {
+        "title": "PhD grant, Année Recherche",
+        "description": "Assistance Publique des Hôpitaux de Paris"
+      },
+      "item7": {
+        "title": "Master 2 grant, Espoir de la Recherche",
+        "description": "Fondation pour la Recherche médicale"
+      }
+    },
+    "teaching": {
+      "item1": "Supervision of two PhD students",
+      "item2": "Supervision of two MD students",
+      "item3": "Supervision of a master 2 student",
+      "item4": "Teaching to residents in psychiatry in Paris",
+      "item5": "Teaching to medical students at Paris University (DFASM1, DFASM2, simulation) and to advanced practices nurses in psychiatry",
+      "item6": "Teaching in the master 2 integrative biology and physiology at Pierre et Marie Curie University",
+      "item7": "Teaching in Neurosciences master 1 at Paris-Descartes/Paris-Diderot University",
+      "item8": "Author of a book of psychiatry for medical students \"UE ECN+ Psychiatrie\"",
+      "item9": "Psychiatry teacher for medical students at the Laennec center in Paris",
+      "item10": "Psychiatry teacher for medical students in Paris and France province at the Conférence Hermès center"
+    },
+    "associative": {
+      "item1": "French representative for the COST PSY-NET initiative",
+      "item2": "Member of the ComPaRe Scientific Committee on Addictive Behaviors",
+      "item3": "Founding member of the Psychedelic Medicine section of the AFBPN (Association Française de Psychiatrie Biologique et de Neuropsychopharmacologie)",
+      "item4": "Member of the Scientific Committee of the Association of Scientific Studies of Consciousness",
+      "item5": "Member of the board of the Association pour l'Enseignement de la sémiologie psychiatrique (AESP)",
+      "item6": "Member of the board of the association ALIUS",
+      "item7": "Member of the Society for Neurosciences, the Society for Biological Psychiatry and OHBM",
+      "item8": "International solidarity project of building a center for handicapped children, children education and prevention workshops about handicap and AIDS in India with the association Niall's Coen Trust",
+      "item9": "Organization of free movies screening for students in the university"
+    }
+  },
+  "TalksPage": {
+    "featured": {
+      "title": "Featured Talks",
+      "subtitle": "Watch my most popular conference talks available on video.",
+      "talk1": {
+        "description": "Presentation on the potential of ketamine and psychedelics to treat depression by increasing neuronal plasticity."
+      },
+      "talk2": {
+        "description": "Conference on the therapeutic use of psychedelics in the treatment of addictions and psychiatric disorders."
+      },
+      "talk3": {
+        "description": "Exploration of the therapeutic potential of altered states of consciousness induced by psychedelics."
+      }
+    },
+    "all": {
+      "title": "All Talks and Communications",
+      "subtitle": "Complete list of my presentations, conferences, and scientific posters.",
+      "categories": {
+        "Organisation de conférences": "Conference Organization",
+        "Communications orales": "Oral Communications",
+        "Posters": "Posters"
+      }
+    }
+  }
+}

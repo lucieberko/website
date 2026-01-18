@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+.navbar-scrolled {
+  /* Following properties have to be in this order
+  otherwise only one of them is integrated in the build */
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.6); /* transparent white */
+}
+
+.gradient-background {
+  background: linear-gradient(-45deg, #338AFF, #3CF0C5, #A64DFF, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+  background-size: 666%;
+  animation: anime 3s ease-in-out infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(-45deg, #338AFF, #3CF0C5, #A64DFF, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+  background-size: 666%;
+  animation: anime 3s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}

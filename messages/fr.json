@@ -1,0 +1,237 @@
+{
+  "Metadata": {
+    "title": "Lucie Berkovitch",
+    "description": "Site personnel de Lucie Berkovitch, psychiatre et chercheuse spécialisée dans l'utilisation des psychédéliques pour le traitement de la santé mentale"
+  },
+  "Navigation": {
+    "about": "À propos",
+    "publications": "Publications",
+    "conf": "Conférences",
+    "press": "Presse",
+    "resume": "CV",
+    "contact": "Me contacter",
+    "openMenu": "Ouvrir le menu principal",
+    "closeMenu": "Fermer le menu"
+  },
+  "Footer": {
+    "copyright": "© {year} Lucie Berkovitch. Tous droits réservés."
+  },
+  "LanguageSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français"
+  },
+  "HomePage": {
+    "hero": {
+      "intro": "Je suis <name>Lucie Berkovitch</name>, psychiatre et chercheuse française spécialisée dans l'utilisation des <specialty>psychédéliques en psychiatrie</specialty>. Mon travail porte sur la compréhension des mécanismes d'action de ces substances et sur la manière dont elles pourraient être implémentées efficacement et en toute sécurité à l'hôpital public pour aider les personnes ayant des troubles psychiatriques.",
+      "description": "Je suis rattachée à <institute>l'Institut de Neuromodulation</institute> à <hospital>l'Hôpital Sainte-Anne</hospital> à Paris, où je suis responsable d'un axe de soins et de recherche sur les psychédéliques. Nous menons plusieurs essais cliniques sur le potentiel thérapeutique des psychédéliques, ainsi que des études fondamentales. Mes recherches s'intègrent dans le corpus croissant de preuves suggérant l'efficacité de ces substances en psychiatrie, notamment pour traiter la dépression, l'anxiété et les addictions."
+    },
+    "news": {
+      "title": "Mes dernières actualités",
+      "subtitle": "Voici quelques articles et actualités concernant mon travail et mes recherches.",
+      "pub1": {
+        "description": "Dans cette émission, je parle des dernières actualités concernant la recherche psychédélique en France.",
+        "category" : "Emission de radio France Culture"
+      },
+      "pub2": {
+        "description": "Cette étude expérimentale d'électroencéphalographie examine comment la kétamine affecte la conscience chez des volontaires sains en lien avec l'apparition de symptômes psychotiques réversibles.",
+        "category" : "Preprint"
+      },
+      "pub3": {
+        "description": "Dans cette Tribune, nous défendons l'accès compassionnel aux psychédéliques en contexte de fin de vie.",
+        "category" : "Tribune dans le journal Le Monde"
+      }
+    }
+    },
+  "ContactPage": {
+    "title": "Prise de contact",
+    "intro": "Que ce soit pour des collaborations de recherche, des interventions ou simplement pour dire bonjour, n'hésitez pas à me contacter par e-mail à",
+    "or": "ou à l'adresse"
+  },
+  "PressPage": {
+    "title": "Communications\nnon-académiques",
+    "subtitle": "Retrouvez mes participations dans les médias et la presse.",
+    "categories": {
+      "television": "Télévision",
+      "press": "Journaux",
+      "radio": "Radio",
+      "scientificMagazines": "Magazines scientifiques",
+      "podcasts": "Podcasts",
+      "videos": "Vidéos",
+      "publicEvents": "Événements grand public"
+    }
+  },
+  "PublicationsPage": {
+    "featured": {
+      "title": "Publications phares",
+      "subtitle": "Une sélection de mes travaux les plus pertinents et remarquables.",
+      "pub1": {
+      "description": "Cette étude examine comment la schizophrénie perturbe les mécanismes neuronaux qui sous-tendent la perception consciente. Nous synthétisons les preuves montrant que les patients atteints de schizophrénie présentent un accès altéré à la conscience, avec une amplification attentionnelle modifiée et une stabilité réduite des représentations conscientes."
+      },
+      "pub2": {
+        "description": "Cette étude révèle que les antidépresseurs et les placebos produisent des schémas similaires d'amélioration des symptômes de la dépression, mais par le biais de mécanismes neuronaux fondamentalement différents. À l'aide de techniques avancées d'imagerie cérébrale et de modélisation informatique, nous démontrons que les résultats cliniques peuvent converger malgré des schémas d'activité cérébrale divergents."
+      },
+      "pub3": {
+        "description": "Cette étude expérimentale examine comment la kétamine affecte la conscience chez des volontaires en bonne santé. Nous démontrons que les altérations de la conscience induites par la kétamine sont corrélées à l'apparition de symptômes de type psychotique, fournissant ainsi un modèle contrôlé pour comprendre les bases neuronales des expériences psychédéliques et des phénomènes liés à la psychose."
+      }
+    },
+    "all": {
+      "title": "Toutes les publications",
+      "subtitle": "Tous les travaux écrits présentés lors de diverses conférences et dans des revues."
+    }
+    },
+  "ResumePage": {
+      "title": "Curriculum Vitae",
+      "subtitle": "Formation, postes, prix et expérience d'enseignement.",
+
+      "categories": {
+        "education": "Éducation",
+        "currentPositions": "Postes actuels",
+        "previousPositions": "Postes précédents",
+        "awards": "Bourses et prix",
+        "funding": "Financements",
+        "teaching": "Enseignement",
+        "associative": "Associatif et sociétés savantes"
+      },
+
+      "education": {
+        "item1": {
+          "title": "Diplôme d'État de Docteur en Médecine et Diplôme d'Études Spécialisées de Psychiatrie",
+          "description": ""
+        },
+        "item2": {
+          "title": "Doctorat en neurosciences",
+          "description": "UPMC Université Pierre et Marie Curie, direction Stanislas Dehaene et Raphaël Gaillard"
+        },
+        "item3": {
+          "title": "Thèse d'exercice",
+          "description": "Paris Descartes"
+        },
+        "item4": {
+          "title": "Master, Cogmaster",
+          "description": "ENS, EHESS, Paris Descartes"
+        },
+        "item5": {
+          "title": "Internat en psychiatrie",
+          "description": "Paris Descartes"
+        },
+        "item6": {
+          "title": "Études médicales",
+          "description": "Paris Descartes"
+        }
+      },
+
+      "currentPositions": {
+        "item1": {
+          "title": "Praticienne Hospitalière",
+          "description": "Institut de Neuromodulation, Service Hospitalo-Universitaire, Hôpital Sainte Anne, GHU Paris Psychiatrie et Neurosciences. Consultations CENPARE (Centre pour Pathologies Résistantes) et consultations Bad-Trip pour les troubles psychiatriques liés à la consommation de substance psychoactive"
+        },
+        "item2": {
+          "title": "PI dans l'équipe Computational Brain Team",
+          "description": "Responsable de l'axe de recherche psychédélique, essais cliniques et études fondamentales"
+        }
+      },
+
+      "previousPositions": {
+        "item1": {
+          "title": "Post-doctorate associate",
+          "description": "Anticevic/Cho Lab, Yale School of Medicine, New Haven, Connecticut, USA"
+        },
+        "item2": {
+          "title": "Cheffe de clinique assistante en psychiatrie",
+          "description": "Unité universitaire, Service Hospitalo-Universitaire, Hôpital Sainte Anne, GHU Paris Psychiatrie et Neurosciences"
+        }
+      },
+
+      "awards": {
+        "item1": "Prix Jeunes Talents de la Fondation l'Oréal-Unesco For Women in Science",
+        "item2": "ECNP Travel award",
+        "item3": "Bourse Fondation Philippe",
+        "item4": "Prix recherche UNAFAM",
+        "item5": "Prix Bettencourt pour les Jeunes Chercheurs",
+        "item6": "Prix de thèse de la Société des Neurosciences",
+        "item7": "Prix de la meilleure publication recherche du Congrès Français de Psychiatrie",
+        "item8": "Prix du comité scientifique du congrès de l'Encéphale"
+      },
+
+      "funding": {
+        "item1": {
+          "title": "ANR JCJC \"PSILOTRAZ : Dissocier les effets psychédéliques et thérapeutiques de la psilocybine dans la dépression résistante : une étude preuve de concept\"",
+          "description": "PI: Lucie Berkovitch. 392 710 €"
+        },
+        "item2": {
+          "title": "MILDECA - Subvention pour l'organisation du symposium \"Psychedelic Medicine: Scientific Perspective\"",
+          "description": "Section de Médecine Psychédélique de l'AFPBN. 20 961 €"
+        },
+        "item3": {
+          "title": "PHRC-I \"TODAY : Efficacité et sécurité du Traitement du trouble obsessionnel compulsif avec l'acide lysergique diéthylamide : essai contrôle randomisé\"",
+          "description": "PI: Luc Mallet. 439 972 €"
+        },
+        "item4": {
+          "title": "Cities partnerships Programme Funds",
+          "description": "En collaboration avec Lucie Charles, UCL"
+        },
+        "item5": {
+          "title": "Bourse Thèse Médico-Scientifique de la Fondation pour la Recherche médicale",
+          "description": ""
+        },
+        "item6": {
+          "title": "Année Recherche Assistance Publique des Hôpitaux de Paris",
+          "description": ""
+        },
+        "item7": {
+          "title": "Bourse Master 2 Espoir de la Recherche de la Fondation pour la Recherche médicale",
+          "description": ""
+        }
+      },
+
+      "teaching": {
+        "item1": "Supervision de deux thèses de science",
+        "item2": "Supervision de deux thèses de médecine",
+        "item3": "Supervision d'un Master 2",
+        "item4": "Enseignement aux internes de psychiatrie à Paris",
+        "item5": "Enseignement aux étudiants en médecine à l'Université Paris Cité (DFASM1, DFASM2, simulation) et aux infirmiers de pratique avancée en psychiatrie",
+        "item6": "Enseignement en master 2 de biologie intégrative et physiologie à l'Université Pierre et Marie Curie",
+        "item7": "Enseignement en master 1 de neurosciences à l'Université Paris-Descartes/Paris-Diderot",
+        "item8": "Autrice de UE ECN+ Psychiatrie",
+        "item9": "Enseignante en psychiatrie pour les étudiants en médecine au centre Laennec à Paris",
+        "item10": "Enseignante en psychiatrie pour les étudiants en médecine à Paris et en province au centre de conférence Hermès"
+      },
+
+      "associative": {
+        "item1": "Représentante France de l'action COST PSY-NET",
+        "item2": "Membre du comité scientifique de ComPaRe Pratiques Addictives",
+        "item3": "Membre fondateur de la Section de Médecine Psychédélique de l'AFPBN (Association Française de Psychiatrie Biologique et de Neuropsychopharmacologie)",
+        "item4": "Membre du comité scientifique de l'Association of Scientific Studies of Consciousness",
+        "item5": "Membre du bureau de l'Association pour l'Enseignement de la sémiologie psychiatrique (AESP)",
+        "item6": "Membre du bureau de l'association ALIUS",
+        "item7": "Membre de la Society for Neurosciences, Society for Biological Psychiatry et OHBM",
+        "item8": "Projet de solidarité internationale : construction d'un centre d'accueil pour enfants handicapés dans un village indien, éducation des enfants handicapés et prévention handicap et SIDA",
+        "item9": "Création et organisation de projections de films gratuites pour les étudiants de la faculté"
+      }
+    },
+    "TalksPage": {
+      "featured": {
+        "title": "Conférences phares",
+        "subtitle": "Découvrez mes conférences les plus populaires disponibles en vidéo.",
+        "talk1": {
+          "description": "Présentation sur le potentiel de la kétamine et des psychédéliques pour traiter la dépression en augmentant la plasticité neuronale."
+        },
+        "talk2": {
+          "description": "Conférence sur l'utilisation thérapeutique des psychédéliques dans le traitement des addictions et des troubles psychiatriques."
+        },
+        "talk3": {
+          "description": "Exploration du potentiel thérapeutique des états modifiés de conscience induits par les psychédéliques."
+        }
+      },
+      "all": {
+        "title": "Toutes les conférences et communications",
+        "subtitle": "Liste complète de mes présentations, conférences et posters scientifiques.",
+        "categories": {
+          "Organisation de conférences": "Organisation de conférences",
+          "Communications orales": "Communications orales",
+          "Posters": "Posters"
+      }
+    }
+  }
+}
