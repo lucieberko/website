@@ -22,7 +22,7 @@ const featured = [
     titleEn: 'Therapeutic use of psychedelics',
     href: 'https://www.youtube.com/watch?v=43uLxpI2-WA',
     descriptionKey: 'talk2.description',
-    imageUrl: '/Fédération_Addiction.png',
+    imageUrl: '/Federation_Addiction.png',
     date: '2023',
     datetime: '2023',
     category: { title: 'Fédération Addiction', href: '#' },
