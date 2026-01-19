@@ -30,7 +30,21 @@ export default function Hero() {
 
               <p className="mt-8">
                 {t.rich('description', {
-                  institute: (chunks) => <span className="font-semibold text-yellow-600">{chunks}</span>,
+                  institute: (chunks) => (
+                    <a
+                      href="https://www.ghu-paris.fr/fr/annuaire-des-structures-medicales/institut-de-neuromodulation-pole-15"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group font-semibold relative inline-block"
+                    >
+                      <span className="opacity-100 group-hover:opacity-0 transition duration-400 ease-in-out text-yellow-600">
+                        {chunks}
+                      </span>
+                      <span className="gradient-text absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition duration-400 ease-in-out">
+                        {chunks}
+                      </span>
+                    </a>
+                  ),
                   hospital: (chunks) => <span className="font-semibold text-green-600">{chunks}</span>,
                 })}
               </p>
