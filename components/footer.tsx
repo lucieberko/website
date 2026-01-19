@@ -53,9 +53,16 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center gap-x-6 md:order-2">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="opacity-60 hover:opacity-90">
+            <a
+              key={item.name}
+              href={item.href}
+              className="group relative inline-block hover:scale-110 transition-transform duration-400"
+            >
               <span className="sr-only">{item.name}</span>
-              <item.icon aria-hidden="true" className="size-6" />
+              <item.icon
+                aria-hidden="true"
+                className="size-6 opacity-60 group-hover:opacity-100 transition-opacity duration-400"
+              />
             </a>
           ))}
         </div>
