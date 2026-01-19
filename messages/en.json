@@ -30,14 +30,17 @@
       "title": "Latest news and articles",
       "subtitle": "Here are some highlighted articles and updates from my work and research.",
       "pub1": {
+        "title": "Study Generalized anxiety disorder - LSD",
+        "description": "New clinical trial evaluating LSD efficacy in generalized anxiety disorder.We are recruiting volunteers.",
+        "category" : "Clinical Trial"
+      },
+        "pub2": {
+        "title": "Questions du Soir : le débat - Champignons, LSD : un espoir pour la psychiatrie ?",
         "description": "In this show, I talk about the latest news regarding psychedelic research in France (in French).",
         "category" : "Radio show France Culture"
       },
-      "pub2": {
-        "description": "This experimental electroencephalography study examines how ketamine affects consciousness in healthy volunteers in relation to the onset of reversible psychotic symptoms.",
-        "category" : "Preprint"
-      },
       "pub3": {
+        "title": "Tribune : Avant de mourir, peut-on mieux vivre ? Pour un accès compassionnel aux psychédéliques en fin de vie",
         "description": "In this tribune, we advocate for compassionate access to psychedelics in end-of-life contexts (in French).",
         "category" : "Tribune Le Monde"
       }

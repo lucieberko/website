@@ -3,30 +3,31 @@
 import { useTranslations } from 'next-intl';
 
 const posts = [
+
   {
     id: 1,
-    title: 'Questions du Soir : le débat - Champignons, LSD : un espoir pour la psychiatrie ?',
-    href: 'https://tinyurl.com/2eaksabf',
+    titleKey: 'pub1.title',
+    href: 'https://www.ghu-paris.fr/fr/actualites/etude-trouble-anxieux-generalise-lsd',
     descriptionKey: 'pub1.description',
-    imageUrl:
-      'https://www.radiofrance.fr/pikapi/images/3e393392-21a3-423b-96e5-0c46317fb6a7/1200x680',
-    date: '02 Jan 2026',
-    datetime: '2026-01-02',
+    imageUrl: '/GAD.jpg',
+    date: '01 Dec 2025',
+    datetime: '2025-12-01',
     categoryKey: 'pub1.category'
   },
   {
     id: 2,
-    title: 'Ketamine disrupts consciousness in healthy participants in relation with psychotic-like symptoms',
-    href: 'https://doi.org/10.1101/2025.11.06.687042',
+    titleKey: 'pub2.title',
+    href: 'https://tinyurl.com/2eaksabf',
     descriptionKey: 'pub2.description',
-    imageUrl: '/Summary3_large.png',
-    date: '08 Nov 2025',
-    datetime: '2025-11-08',
+    imageUrl:
+      'https://www.radiofrance.fr/pikapi/images/3e393392-21a3-423b-96e5-0c46317fb6a7/1200x680',
+    date: '02 Jan 2026',
+    datetime: '2026-01-02',
     categoryKey: 'pub2.category'
   },
   {
     id: 3,
-    title: 'Tribune : Avant de mourir, peut-on mieux vivre ? Pour un accès compassionnel aux psychédéliques en fin de vie',
+    titleKey: 'pub3.title',
     href: 'https://tinyurl.com/mrca3rhh',
     descriptionKey: 'pub3.description',
     imageUrl: 'https://img.lemde.fr/2025/04/04/0/0/8256/5504/664/0/75/0/8a555cc_sirius-fs-upload-1-bhv0g8luuyeb-1743775316099-000-33ff3gy.jpg',
@@ -83,10 +84,10 @@ export default function News() {
                     <a href={post.href}>
                       <span className="absolute inset-0" />
                         <span className="mt-3 text-lg/6 font-semibold opacity-100 group-hover:opacity-0 transition duration-400 ease-in-out min-h-[5rem] flex items-center">
-                          {post.title}
+                          {t(post.titleKey)}
                         </span>
                         <span className="mt-3 text-lg/6 font-semibold gradient-text absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition duration-400 ease-in-out min-h-[5rem] flex items-center">
-                          {post.title}
+                          {t(post.titleKey)}
                         </span>
                     </a>
                   </h3>

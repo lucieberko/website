@@ -30,14 +30,17 @@
       "title": "Mes dernières actualités",
       "subtitle": "Voici quelques articles et actualités concernant mon travail et mes recherches.",
       "pub1": {
+        "title": "Etude : Trouble anxieux généralisé - LSD",
+        "description": "Nouvel essai clinique évaluant l'efficacité du LSD dans le traitement du trouble anxieux généralisé. Nous recrutons des volontaires.",
+        "category" : "Essai clinique"
+      },
+      "pub2": {
+        "title": "Questions du Soir : le débat - Champignons, LSD : un espoir pour la psychiatrie ?",
         "description": "Dans cette émission, je parle des dernières actualités concernant la recherche psychédélique en France.",
         "category" : "Emission de radio France Culture"
       },
-      "pub2": {
-        "description": "Cette étude expérimentale d'électroencéphalographie examine comment la kétamine affecte la conscience chez des volontaires sains en lien avec l'apparition de symptômes psychotiques réversibles.",
-        "category" : "Preprint"
-      },
       "pub3": {
+        "title": "Tribune : Avant de mourir, peut-on mieux vivre ? Pour un accès compassionnel aux psychédéliques en fin de vie",
         "description": "Dans cette Tribune, nous défendons l'accès compassionnel aux psychédéliques en contexte de fin de vie.",
         "category" : "Tribune dans le journal Le Monde"
       }
