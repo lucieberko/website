@@ -10,6 +10,7 @@
     "press": "Presse",
     "resume": "CV",
     "contact": "Me contacter",
+    "links": "Liens Utiles",
     "openMenu": "Ouvrir le menu principal",
     "closeMenu": "Fermer le menu"
   },
@@ -238,5 +239,62 @@
           "Posters": "Posters"
       }
     }
+  },
+  "UsefulLinksPage": {
+  "title": "Pour aller plus loin",
+  "subtitle": "Structures de soins et ressources en psychiatrie et médecine psychédélique",
+  "categories": {
+    "careServices": "Offres et structures de soins à l'hôpital Sainte Anne",
+    "ongoingStudies": "Études en cours dans notre centre",
+    "researchLabs": "Laboratoires et équipes de recherche",
+    "associations": "Associations et sociétés savantes",
+    "resources": "Ressources utiles"
+  },
+  "careServices": {
+    "item1": {
+      "title": "CENPARE - Centre d'Évaluation des Pathologies Résistantes",
+      "description": "Structure spécialisée dans l'évaluation et la prise en charge des pathologies psychiatriques résistantes aux traitements conventionnels"
+    },
+    "item2": {
+      "title": "Institut de Neuromodulation",
+      "description": "Centre de référence pour les thérapies innovantes en psychiatrie incluant la neuromodulation et les psychédéliques"
+    },
+    "item3": {
+      "title": "Consultation Bad Trip",
+      "description": "Consultation dédiée à la prise en charge des expériences difficiles sous substances psychoactives"
+    }
+  },
+  "ongoingStudies": {
+    "item1": {
+      "title": "Étude sur le trouble anxieux généralisé et le LSD",
+      "description": "Essai clinique évaluant l'efficacité du LSD dans le traitement du trouble anxieux généralisé"
+    }
+  },
+  "researchLabs": {
+    "item1": {
+      "title": "Computational Brain Team",
+      "description": "Équipe de recherche en neurosciences computationnelles dirigée par le Dr. Michaël Dougoud, spécialisée dans la modélisation mathématique du cerveau"
+    },
+    "item2": {
+      "title": "UNICOG - Unité de Neuroimagerie Cognitive (NeuroSpin)",
+      "description": "Laboratoire du CEA dédié à l'étude des bases cérébrales des fonctions cognitives humaines par imagerie cérébrale"
+    }
+  },
+  "associations": {
+    "item1": {
+      "title": "Section de Médecine Psychédélique - AFPBN",
+      "description": "Section dédiée à la médecine psychédélique au sein de l'Association Française de Psychiatrie Biologique et de Neuropsychopharmacologie"
+    },
+    "item2": {
+      "title": "Société Psychédélique Française",
+      "description": "Association pour la promotion de la recherche et des applications thérapeutiques des psychédéliques en France"
+    }
+  },
+  "resources": {
+    "item1": {
+      "title": "Gestion des expériences difficiles sous psychédéliques",
+      "description": "Informations pour comprendre et gérer les expériences psychédéliques difficiles"
+    }
   }
+}
 }

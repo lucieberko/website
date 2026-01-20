@@ -10,6 +10,7 @@
     "press": "Press",
     "resume": "Resume",
     "contact": "Contact me",
+    "links": "Useful Links",
     "openMenu": "Open main menu",
     "closeMenu": "Close menu"
   },
@@ -230,5 +231,62 @@
         "Posters": "Posters"
       }
     }
+  },
+  "UsefulLinksPage": {
+  "title": "To Go Further",
+  "subtitle": "Care structures and resources in psychiatry and psychedelic medicine",
+  "categories": {
+    "careServices": "Care Services and Structures at Sainte Anne Hospital",
+    "ongoingStudies": "Ongoing Studies in our center",
+    "researchLabs": "Research Laboratories and Teams",
+    "associations": "Associations and Scientific Societies",
+    "resources": "Useful Resources"
+  },
+  "careServices": {
+    "item1": {
+      "title": "CENPARE - Treatment-Resistant Pathologies Assessment Center",
+      "description": "Specialized structure for the evaluation and management of psychiatric conditions resistant to conventional treatments"
+    },
+    "item2": {
+      "title": "Neuromodulation Institute",
+      "description": "Reference center for innovative therapies in psychiatry including neuromodulation and psychedelics"
+    },
+    "item3": {
+      "title": "Bad Trip Consultation",
+      "description": "Dedicated consultation for managing difficult experiences with psychoactive substances"
+    }
+  },
+  "ongoingStudies": {
+    "item1": {
+      "title": "Study on Generalized Anxiety Disorder and LSD",
+      "description": "Clinical trial evaluating the efficacy of LSD in treating generalized anxiety disorder"
+    }
+  },
+  "researchLabs": {
+    "item1": {
+      "title": "Computational Brain Team",
+      "description": "Computational neuroscience research team led by Dr. Michaël Dougoud, specialized in mathematical modeling of the brain"
+    },
+    "item2": {
+      "title": "UNICOG - Cognitive Neuroimaging Unit (NeuroSpin)",
+      "description": "CEA laboratory dedicated to studying the brain basis of human cognitive functions through brain imaging"
+    }
+  },
+  "associations": {
+    "item1": {
+      "title": "Psychedelic Medicine Section - AFPBN",
+      "description": "Section dedicated to psychedelic medicine within the French Association of Biological Psychiatry and Neuropsychopharmacology"
+    },
+    "item2": {
+      "title": "French Psychedelic Society",
+      "description": "Association promoting research and therapeutic applications of psychedelics in France"
+    }
+  },
+  "resources": {
+    "item1": {
+      "title": "Managing Challenging Psychedelic Experiences",
+      "description": "Information to understand and manage difficult psychedelic experiences"
+    }
   }
+}
 }

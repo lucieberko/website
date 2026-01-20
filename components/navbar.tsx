@@ -21,6 +21,7 @@ export default function Navbar() {
     { name: t('conf'), href: '/conf' },
     { name: t('resume'), href: '/resume' },
     { name: t('contact'), href: '/contact' },
+    { name: t('links'), href: '/links' }
   ]
 
   useEffect(() => {
