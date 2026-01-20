@@ -49,7 +49,9 @@
   "ContactPage": {
     "title": "Get in touch",
     "intro": "Whether it be for research collaborations, speaking engagements, or just to say hello, feel free to reach out via email at",
-    "or": "or at"
+    "or": "or at",
+    "addressTitle": "Dr Lucie Berkovitch,",
+    "psychedelicStudies": "For any inquiries regarding psychedelic studies"
   },
   "PressPage": {
     "title": "Non-academic\ncommunications",

@@ -49,7 +49,9 @@
   "ContactPage": {
     "title": "Prise de contact",
     "intro": "Que ce soit pour des collaborations de recherche, des interventions ou simplement pour dire bonjour, n'hésitez pas à me contacter par e-mail à",
-    "or": "ou à l'adresse"
+    "or": "ou à l'adresse",
+    "addressTitle": "Dre Lucie Berkovitch,",
+    "psychedelicStudies": "Pour toute demande relative aux études psychédéliques"
   },
   "PressPage": {
     "title": "Communications\nnon-académiques",
