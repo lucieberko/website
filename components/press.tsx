@@ -432,10 +432,14 @@ export default function Press() {
                               </time>
                             </div>
                             <div className="group relative">
-                              <h5 className="text-base font-semibold text-gray-900 group-hover:text-gray-600">
+                              <h5 className="text-base text-gray-900 group-hover:text-gray-600">
                                 <a href={post.href}>
-                                  <span className="absolute inset-0" />
-                                  {post.title}
+                                  <span className="opacity-100 group-hover:opacity-0 transition duration-400 ease-in-out">
+                                    {post.title}
+                                  </span>
+                                  <span className="gradient-text absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition duration-400 ease-in-out">
+                                    {post.title}
+                                  </span>
                                 </a>
                               </h5>
                               {post.description && (
