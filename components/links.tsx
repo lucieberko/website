@@ -35,6 +35,20 @@ const linksData = [
     category: 'ongoingStudies',
     href: 'https://www.ghu-paris.fr/fr/actualites/etude-trouble-anxieux-generalise-lsd'
   },
+  {
+    id: 'study2',
+    titleKey: 'ongoingStudies.item2.title',
+    descriptionKey: 'ongoingStudies.item2.description',
+    category: 'ongoingStudies',
+    href: 'https://compare.aphp.fr/depression/'
+  },
+  {
+    id: 'study3',
+    titleKey: 'ongoingStudies.item3.title',
+    descriptionKey: 'ongoingStudies.item3.description',
+    category: 'ongoingStudies',
+    href: 'https://compare.aphp.fr/pratiques_addictives/'
+  },
 
   // Laboratoires et équipes de recherche
   {
@@ -75,8 +89,16 @@ const linksData = [
     descriptionKey: 'resources.item1.description',
     category: 'resources',
     href: 'https://challengingpsychedelicexperiences.com/'
+  },
+  {
+    id: 'resource2',
+    titleKey: 'resources.item2.title',
+    descriptionKey: 'resources.item2.description',
+    category: 'resources',
+    href: 'https://societepsychedelique.fr/fr/blog/psyche-de-liques-manuel-de-re-duction-des-risques/'
   }
 ];
+
 
 // Images par catégorie
 const categoryImages: Record<string, string> = {

@@ -11,7 +11,7 @@ export default async function Page({
 }) {
   const { locale } = await params
   setRequestLocale(locale)
-
+  
   return (
     <div className="bg-white">
       <Navbar />

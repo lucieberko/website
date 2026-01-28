@@ -56,15 +56,50 @@
   },
   "PressPage": {
     "title": "Communications\nnon-académiques",
-    "subtitle": "Retrouvez mes participations dans les médias et la presse.",
+    "subtitle": "Retrouvez quelques-unes de mes participations dans les médias et la presse.",
     "categories": {
       "television": "Télévision",
-      "press": "Journaux",
+      "press": "Presse écrite",
       "radio": "Radio",
       "scientificMagazines": "Magazines scientifiques",
       "podcasts": "Podcasts",
       "videos": "Vidéos",
       "publicEvents": "Événements grand public"
+    },
+    "dates": {
+      "item1": "01 oct. 2025",
+      "item2": "05 juil. 2025",
+      "item3": "20 juil. 2023",
+      "item4": "08 nov. 2025",
+      "item5": "10 oct. 2024",
+      "item6": "21 janv. 2024",
+      "item7": "24 avr. 2025",
+      "item8": "07 sept. 2024",
+      "item9": "17 avr. 2025",
+      "item10": "20 mai 2024",
+      "item11": "29 oct. 2024",
+      "item12": "16 févr. 2024",
+      "item13": "02 janv. 2026",
+      "item14": "13 oct. 2025",
+      "item15": "11 nov. 2022",
+      "item16": "02 août 2023",
+      "item17": "09 mai 2023",
+      "item18": "20 sept. 2023",
+      "item19": "09 oct. 2024",
+      "item20": "28 févr. 2024",
+      "item21": "20 déc. 2024",
+      "item22": "30 juil. 2025",
+      "item23": "02 juin 2023",
+      "item24": "23 avr. 2025",
+      "item25": "23 août 2024",
+      "item26": "16 mars 2023",
+      "item27": "27 févr. 2023",
+      "item28": "27 juin 2022",
+      "item29": "06 janv. 2025",
+      "item30": "2024",
+      "item31": "2023",
+      "item32": "10 mars 2025",
+      "item33": "27 nov. 2025"
     }
   },
   "PublicationsPage": {
@@ -268,6 +303,14 @@
     "item1": {
       "title": "Étude sur le trouble anxieux généralisé et le LSD",
       "description": "Essai clinique évaluant l'efficacité du LSD dans le traitement du trouble anxieux généralisé"
+    },
+    "item2": {
+      "title": "ComPaRe Dépression",
+      "description": "Communauté de recherche participative impliquant des personnes concernées par la dépression"
+    },
+    "item3": {
+      "title": "ComPaRe Pratiques Addictives",
+      "description": "Communauté de recherche participative impliquant des personnes ayant des pratiques addictives"
     }
   },
   "researchLabs": {
@@ -294,6 +337,10 @@
     "item1": {
       "title": "Gestion des expériences difficiles sous psychédéliques",
       "description": "Informations pour comprendre et gérer les expériences psychédéliques difficiles"
+    },
+    "item2": {
+      "title": "Manuel de réduction des risques de la Société Psychédélique Française",
+      "description": "Informations pour diminuer les risques associés à la prise de psychédéliques"
     }
   }
 }

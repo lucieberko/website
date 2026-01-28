@@ -65,6 +65,41 @@
       "podcasts": "Podcasts",
       "videos": "Videos",
       "publicEvents": "Public Events"
+    },
+    "dates": {
+      "item1": "Oct 01, 2025",
+      "item2": "Jul 05, 2025",
+      "item3": "Jul 20, 2023",
+      "item4": "Nov 08, 2025",
+      "item5": "Oct 10, 2024",
+      "item6": "Jan 21, 2024",
+      "item7": "Apr 24, 2025",
+      "item8": "Sep 07, 2024",
+      "item9": "Apr 17, 2025",
+      "item10": "May 20, 2024",
+      "item11": "Oct 29, 2024",
+      "item12": "Feb 16, 2024",
+      "item13": "Jan 02, 2026",
+      "item14": "Oct 13, 2025",
+      "item15": "Nov 11, 2022",
+      "item16": "Aug 02, 2023",
+      "item17": "May 09, 2023",
+      "item18": "Sep 20, 2023",
+      "item19": "Oct 09, 2024",
+      "item20": "Feb 28, 2024",
+      "item21": "Dec 20, 2024",
+      "item22": "Jul 30, 2025",
+      "item23": "Jun 02, 2023",
+      "item24": "Apr 23, 2025",
+      "item25": "Aug 23, 2024",
+      "item26": "Mar 16, 2023",
+      "item27": "Feb 27, 2023",
+      "item28": "Jun 27, 2022",
+      "item29": "Jan 06, 2025",
+      "item30": "2024",
+      "item31": "2023",
+      "item32": "Mar 10, 2025",
+      "item33": "Nov 27, 2025"
     }
   },
   "PublicationsPage": {
@@ -260,6 +295,14 @@
     "item1": {
       "title": "Study on Generalized Anxiety Disorder and LSD",
       "description": "Clinical trial evaluating the efficacy of LSD in treating generalized anxiety disorder"
+    },
+    "item2": {
+      "title": "ComPaRe Dépression",
+      "description": "Participatory research community involving people affected by depression"
+    },
+    "item3": {
+      "title": "ComPaRe Pratiques Addictives",
+      "description": "Participatory research community involving people with addictive behaviors"
     }
   },
   "researchLabs": {
@@ -286,6 +329,10 @@
     "item1": {
       "title": "Managing Challenging Psychedelic Experiences",
       "description": "Information to understand and manage difficult psychedelic experiences"
+    },
+    "item2": {
+      "title": "Risk reduction manual from the French Psychedelic Society",
+      "description": "Information to reduce risks associated with psychedelic intake"
     }
   }
 }
