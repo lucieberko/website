@@ -30,7 +30,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const messages = await getMessages({ locale });
   const metadata = messages.Metadata as { title: string; description: string };
-  
+
   return {
     title: metadata.title,
     description: metadata.description,
@@ -59,6 +59,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <meta name="google-site-verification" content="Xbjur6gWRSD-fh_gEJNSzmK77vj_lwmXd9kBK5IOlN0" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
