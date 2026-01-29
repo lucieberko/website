@@ -10,7 +10,7 @@
     "press": "Presse",
     "resume": "CV",
     "contact": "Me contacter",
-    "links": "Liens Utiles",
+    "links": "Liens utiles",
     "openMenu": "Ouvrir le menu principal",
     "closeMenu": "Fermer le menu"
   },
@@ -331,6 +331,10 @@
     "item2": {
       "title": "Société Psychédélique Française",
       "description": "Association pour la promotion de la recherche et des applications thérapeutiques des psychédéliques en France"
+    },
+    "item3": {
+      "title": "Fondation Pierre Deniker",
+      "description": "Fondation soutenant la prévention et la recherche en santé mentale pour améliorer les connaissances et lutter contre la stigmatisation"
     }
   },
   "resources": {

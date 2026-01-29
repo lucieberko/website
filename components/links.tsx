@@ -81,6 +81,14 @@ const linksData = [
     category: 'associations',
     href: 'https://societepsychedelique.fr/fr'
   },
+  {
+    id: 'assoc3',
+    titleKey: 'associations.item3.title',
+    descriptionKey: 'associations.item3.description',
+    category: 'associations',
+    href: 'https://www.fondationpierredeniker.org/'
+  },
+
 
   // Ressources
   {

@@ -10,7 +10,7 @@
     "press": "Press",
     "resume": "Resume",
     "contact": "Contact me",
-    "links": "Useful Links",
+    "links": "Useful links",
     "openMenu": "Open main menu",
     "closeMenu": "Close menu"
   },
@@ -323,6 +323,10 @@
     "item2": {
       "title": "French Psychedelic Society",
       "description": "Association promoting research and therapeutic applications of psychedelics in France"
+    },
+    "item3": {
+      "title": "Pierre Deniker Foundation",
+      "description": "Foundation supporting mental health prevention and research to improve knowledge and combat stigma"
     }
   },
   "resources": {
