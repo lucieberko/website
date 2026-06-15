@@ -31,8 +31,8 @@
       "title": "Mes dernières actualités",
       "subtitle": "Voici quelques articles et actualités concernant mon travail et mes recherches.",
       "pub1": {
-        "title": "Etude : Trouble anxieux généralisé - LSD",
-        "description": "Nouvel essai clinique évaluant l'efficacité du LSD dans le traitement du trouble anxieux généralisé. Nous recrutons des volontaires.",
+        "title": "Etude : PSILOTRAZ - Psilocybine dans la dépression résistante",
+        "description": "Nouvel essai clinique évaluant le rôle de l'expérience subjective dans les effets thérapeutiques de la psilocybine. Nous recrutons des volontaires.",
         "category" : "Essai clinique"
       },
       "pub2": {
@@ -55,6 +55,19 @@
     "psychedelicStudies": "Pour toute demande relative aux études psychédéliques"
   },
   "PressPage": {
+    "featured": {
+      "title": "Interviews vidéos",
+      "subtitle": "Découvrez mes interviews les plus populaires disponibles en vidéo.",
+      "itw1": {
+        "description": "Questions courtes et réponses courtes sur les psychédéliques et la psychiatrie dans notre société."
+      },
+      "itw2": {
+        "description": "Interview sur l'efficacité thérapeutique des psychédéliques en psychiatrie."
+      },
+      "itw3": {
+        "description": "Interview en longueur sur les psychédéliques, leur histoire et l'état actuel de la recherche."
+      }
+    },
     "title": "Communications\nnon-académiques",
     "subtitle": "Retrouvez quelques-unes de mes participations dans les médias et la presse.",
     "categories": {
@@ -256,10 +269,10 @@
         "title": "Conférences phares",
         "subtitle": "Découvrez mes conférences les plus populaires disponibles en vidéo.",
         "talk1": {
-          "description": "Présentation sur le potentiel de la kétamine et des psychédéliques pour traiter la dépression en augmentant la plasticité neuronale."
+          "description": "Conférence sur les effets neurocognitifs des thérapies assistées par psychédéliques, de la pharmacologie aux effets placebo en passant par la psychothérapie."
         },
         "talk2": {
-          "description": "Conférence sur l'utilisation thérapeutique des psychédéliques dans le traitement des addictions et des troubles psychiatriques."
+          "description": "Présentation sur le potentiel de la kétamine et des psychédéliques pour traiter la dépression en augmentant la plasticité neuronale."
         },
         "talk3": {
           "description": "Exploration du potentiel thérapeutique des états modifiés de conscience induits par les psychédéliques."
@@ -301,8 +314,8 @@
   },
   "ongoingStudies": {
     "item1": {
-      "title": "Étude sur le trouble anxieux généralisé et le LSD",
-      "description": "Essai clinique évaluant l'efficacité du LSD dans le traitement du trouble anxieux généralisé"
+      "title": "Étude sur la dépression résistante et la psilocybine",
+      "description": "Essai clinique évaluant le rôle de l'expérience subjective dans les effets antidépresseurs de la psilocybine"
     },
     "item2": {
       "title": "ComPaRe Dépression",

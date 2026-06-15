@@ -7,11 +7,11 @@ const posts = [
   {
     id: 1,
     titleKey: 'pub1.title',
-    href: 'https://www.ghu-paris.fr/fr/actualites/etude-trouble-anxieux-generalise-lsd',
+    href: 'https://www.ghu-paris.fr/fr/etude-psilotraz-recherche-sur-la-psilocybine-dans-la-depression-resistante',
     descriptionKey: 'pub1.description',
-    imageUrl: '/GAD.jpg',
-    date: '01 Dec 2025',
-    datetime: '2025-12-01',
+    imageUrl: '/PSILOTRAZ2',
+    date: '11 May 2026',
+    datetime: '2026-05-11',
     categoryKey: 'pub1.category'
   },
   {

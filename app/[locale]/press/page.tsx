@@ -1,6 +1,7 @@
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import Press from '@/components/press'
+import { Featured } from '@/components/press'
 import { setRequestLocale } from 'next-intl/server'
 
 export default async function Page({
@@ -10,10 +11,11 @@ export default async function Page({
 }) {
   const { locale } = await params
   setRequestLocale(locale)
-  
+
   return (
     <div className="bg-white">
       <Navbar />
+      <Featured />
       <Press />
       <Footer />
     </div>

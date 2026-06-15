@@ -33,7 +33,7 @@ const linksData = [
     titleKey: 'ongoingStudies.item1.title',
     descriptionKey: 'ongoingStudies.item1.description',
     category: 'ongoingStudies',
-    href: 'https://www.ghu-paris.fr/fr/actualites/etude-trouble-anxieux-generalise-lsd'
+    href: 'https://www.ghu-paris.fr/fr/etude-psilotraz-recherche-sur-la-psilocybine-dans-la-depression-resistante'
   },
   {
     id: 'study2',

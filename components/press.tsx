@@ -1,6 +1,104 @@
 'use client';
 
+import { ChevronRightIcon } from '@heroicons/react/20/solid';
 import { useTranslations } from 'next-intl';
+
+const featured = [
+  {
+    id: 1,
+    title: 'Interview Paris Saclay Summit Le Crayon',
+    titleEn: 'Interview Paris Saclay Summit Le Crayon',
+    href: 'https://www.youtube.com/shorts/YNvRvn_Kh2E',
+    descriptionKey: 'itw1.description',
+    imageUrl: '/Crayon.png',
+    date: '2026',
+    datetime: '2026',
+    category: { title: 'Paris Saclay Summit', href: '#' },
+    location: 'Saclay',
+  },
+  {
+    id: 2,
+    title: 'We demain : Usage thérapeutique des psychédéliques',
+    titleEn: 'We demain: Therapeutic use of psychedelics',
+    href: 'https://www.facebook.com/watch/?v=1476602757213894',
+    descriptionKey: 'itw2.description',
+    imageUrl: '/Wedemain.png',
+    date: '2026',
+    datetime: '2026',
+    category: { title: 'We Demain', href: '#' },
+    location: 'Paris',
+  },
+  {
+    id: 3,
+    title: 'Cairn : Psychédéliques : du bad trip aux miracles thérapeutiques',
+    titleEn: 'Cairn: Psychedelics: From Bad Trips to Therapeutic Miracles',
+    href: 'https://stm.cairn.info/rencontre-psychedelique-du-bad-trip-aux-miracles-therapeutiques',
+    descriptionKey: 'itw3.description',
+    imageUrl: '/Cairn.png',
+    date: '2026',
+    datetime: '2026',
+    category: { title: 'Cairn', href: '#' },
+    location: 'Paris',
+  },
+]
+
+export function Featured() {
+  const t = useTranslations('PressPage.featured');
+
+  return (
+    <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:max-w-2xl">
+          <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">{t('title')}</h2>
+          <p className="mt-2 text-lg/8 text-gray-600">{t('subtitle')}</p>
+        </div>
+        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          {featured.map((talk) => (
+            <article key={talk.id} className="flex flex-col items-start">
+            <a
+              href={talk.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative w-full h-64 sm:h-72 lg:h-64 block hover:opacity-90 transition-opacity"
+            >
+              <img
+                alt=""
+                src={talk.imageUrl}
+                className="w-full h-full rounded-2xl  bg-white object-cover"
+              />
+              <div className="absolute inset-0 rounded-2xl inset-ring inset-ring-gray-900/10" />
+            </a>
+              <div className="flex max-w-xl w-full flex-col">
+                <div className="mt-8 flex items-center gap-x-4 text-xs">
+                  <time dateTime={talk.datetime} className="text-gray-500">
+                    {talk.date}
+                  </time>
+                  <span className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600">
+                    {talk.location}
+                  </span>
+                </div>
+                <div className="group relative flex-1 flex flex-col">
+                  <h3 className="font-semibold text-gray-900 group-hover:text-gray-600">
+                    <a href={talk.href} target="_blank" rel="noopener noreferrer">
+                      <span className="absolute inset-0" />
+                      <span className="mt-4 text-lg/6 opacity-100 group-hover:opacity-0 transition duration-400 ease-in-out min-h-[5rem] flex items-center">
+                        {talk.title}
+                      </span>
+                      <span className="mt-4 text-lg/6 gradient-text absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition duration-400 ease-in-out min-h-[5rem] flex items-center">
+                        {talk.title}
+                      </span>
+                    </a>
+                  </h3>
+                  <p className="mt-5 line-clamp-none text-sm/6 text-gray-600">{t(talk.descriptionKey)}</p>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 const press = [
   // Télévision

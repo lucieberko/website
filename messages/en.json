@@ -31,8 +31,8 @@
       "title": "Latest news and articles",
       "subtitle": "Here are some highlighted articles and updates from my work and research.",
       "pub1": {
-        "title": "Study : Generalized anxiety disorder - LSD",
-        "description": "New clinical trial evaluating LSD efficacy in generalized anxiety disorder. We are recruiting volunteers.",
+        "title": "Study : PSILOTRAZ - Psilocybin in treatment-resistant depression ",
+        "description": "New clinical trial evaluating the role of subjective experience in the therapeutic effects of psilocybin. We are recruiting volunteers.",
         "category" : "Clinical Trial"
       },
         "pub2": {
@@ -55,6 +55,19 @@
     "psychedelicStudies": "For any inquiries regarding psychedelic studies"
   },
   "PressPage": {
+    "featured": {
+      "title": "Video interviews",
+      "subtitle": "Watch my most popular interviews available on video.",
+      "itw1": {
+        "description": "Short questions-short answers about psychedelics and psychiatry in our society."
+      },
+      "itw2": {
+        "description": "Interview about the therapeutic efficacy of psychedelics in psychiatry."
+      },
+      "itw3": {
+        "description": "An in-depth interview on psychedelics, their history, and the current state of research."
+      }
+    },
     "title": "Non-academic\ncommunications",
     "subtitle": "Find some of my participations in the media and press.",
     "categories": {
@@ -248,10 +261,10 @@
       "title": "Featured Talks",
       "subtitle": "Watch my most popular conference talks available on video.",
       "talk1": {
-        "description": "Presentation on the potential of ketamine and psychedelics to treat depression by increasing neuronal plasticity."
+        "description": "Conference on the neurocognitive effects of psychedelic-assisted therapies: from Pharmacology to psychotherapy and placebo effects."
       },
       "talk2": {
-        "description": "Conference on the therapeutic use of psychedelics in the treatment of addictions and psychiatric disorders."
+        "description": "Presentation on the potential of ketamine and psychedelics to treat depression by increasing neuronal plasticity."
       },
       "talk3": {
         "description": "Exploration of the therapeutic potential of altered states of consciousness induced by psychedelics."
@@ -293,8 +306,8 @@
   },
   "ongoingStudies": {
     "item1": {
-      "title": "Study on Generalized Anxiety Disorder and LSD",
-      "description": "Clinical trial evaluating the efficacy of LSD in treating generalized anxiety disorder"
+      "title": "Study on Treatment Resistant Depression using Psilocybin",
+      "description": "Clinical trial evaluating the role of subjective experience in the antidepressant effects of psilocybin"
     },
     "item2": {
       "title": "ComPaRe Dépression",
