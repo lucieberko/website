@@ -5,6 +5,18 @@ import { useTranslations } from 'next-intl';
 
 const featured = [
   {
+    id: 4,
+    title: 'TEDxAgroParisTech : Psychedelics: Treatments of the Future',
+    titleEn: 'TEDxAgroParisTech: Psychedelics: Treatments of the Future',
+    href: 'https://www.youtube.com/watch?v=W2W-c_OMGxU',
+    descriptionKey: 'itw4.description',
+    imageUrl: 'https://img.youtube.com/vi/W2W-c_OMGxU/maxresdefault.jpg',
+    date: '2026',
+    datetime: '2026-09-30',
+    category: { title: 'TEDx', href: '#' },
+    location: 'TEDxAgroParisTech',
+  },
+  {
     id: 1,
     title: 'Interview Paris Saclay Summit Le Crayon',
     titleEn: 'Interview Paris Saclay Summit Le Crayon',
@@ -26,18 +38,6 @@ const featured = [
     date: '2026',
     datetime: '2026',
     category: { title: 'We Demain', href: '#' },
-    location: 'Paris',
-  },
-  {
-    id: 3,
-    title: 'Cairn : Psychédéliques : du bad trip aux miracles thérapeutiques',
-    titleEn: 'Cairn: Psychedelics: From Bad Trips to Therapeutic Miracles',
-    href: 'https://stm.cairn.info/rencontre-psychedelique-du-bad-trip-aux-miracles-therapeutiques',
-    descriptionKey: 'itw3.description',
-    imageUrl: '/Cairn.png',
-    date: '2026',
-    datetime: '2026',
-    category: { title: 'Cairn', href: '#' },
     location: 'Paris',
   },
 ]
@@ -173,6 +173,26 @@ const press = [
     category: { title: 'press', subcategory: 'Mediapart' },
   },
 
+  // Presse papier - Mediapart (nouveau)
+  {
+    id: 41,
+    title: 'Soigner son bad trip : les nouvelles frontières de la psychiatrie',
+    href: 'https://www.mediapart.fr/journal/france/210926/soigner-son-bad-trip-les-nouvelles-frontieres-de-la-psychiatrie',
+    dateKey: 'dates.item41',
+    datetime: '2026-09-21',
+    category: { title: 'press', subcategory: 'Mediapart' },
+  },
+
+  // Presse papier - RFI
+  {
+    id: 37,
+    title: 'Des champignons en psychiatrie : la psilocybine entre promesses thérapeutiques et prudence médicale',
+    href: 'https://www.rfi.fr/fr/science/20260118-des-champignons-en-psychiatrie-la-psilocybine-entre-promesses-th%C3%A9rapeutiques-et-prudence-m%C3%A9dicale',
+    dateKey: 'dates.item37',
+    datetime: '2026-01-18',
+    category: { title: 'press', subcategory: 'RFI' },
+  },
+
   // Presse papier - France 24
   {
     id: 9,
@@ -247,6 +267,15 @@ const press = [
     category: { title: 'radio', subcategory: 'France Culture' },
   },
 
+  {
+    id: 43,
+    title: 'Avec sciences : La psilocybine, un psychédélique alignerait l\'activité cérébrale sur le contexte extérieur',
+    href: 'https://www.radiofrance.fr/franceculture/podcasts/avec-sciences/la-psilocybine-un-psychedelique-alignerait-l-activite-cerebrale-sur-le-contexte-exterieur-3439236',
+    dateKey: 'dates.item43',
+    datetime: '2026-09-02',
+    category: { title: 'radio', subcategory: 'France Culture' },
+  },
+
   // Radio - RFI
   {
     id: 17,
@@ -293,6 +322,34 @@ const press = [
     dateKey: 'dates.item21',
     datetime: '2024-12-20',
     category: { title: 'scientificMagazines', subcategory: 'Le Quotidien du Médecin' },
+  },
+
+  // Magazines scientifiques - Cerveau&Psycho (nouveaux)
+  {
+    id: 39,
+    title: 'Lucie Berkovitch : « Les psychédéliques sont une révolution dans le traitement de la dépression »',
+    href: 'https://www.cerveauetpsycho.fr/sd/psychiatrie/lucie-berkovitch-les-psychedeliques-sont-une-revolution-dans-le-traitement-de-la-depression-28874.php',
+    dateKey: 'dates.item39',
+    datetime: '2026-03-05',
+    category: { title: 'scientificMagazines', subcategory: 'Cerveau&Psycho' },
+  },
+  {
+    id: 40,
+    title: 'Dépression : les nouveaux traitements qui pourraient changer la donne',
+    href: 'https://www.cerveauetpsycho.fr/sd/Psychopharmacologie/depression-les-nouveaux-traitements-qui-pourraient-changer-la-donne-29656.php',
+    dateKey: 'dates.item40',
+    datetime: '2026-10-12',
+    category: { title: 'scientificMagazines', subcategory: 'Cerveau&Psycho' },
+  },
+
+  // Magazines scientifiques - Science & Vie
+  {
+    id: 38,
+    title: 'Les champignons psychédéliques pourraient arriver bientôt en pharmacie, et ils promettent de bousculer la psychiatrie',
+    href: 'https://www.science-et-vie.com/corps-et-sante/les-champignons-psychedeliques-pourraient-arriver-bientot-en-pharmacie-et-ils-promettent-de-bousculer-la-psychiatrie-246559.html',
+    dateKey: 'dates.item38',
+    datetime: '2026-06-26',
+    category: { title: 'scientificMagazines', subcategory: 'Science & Vie' },
   },
 
   // Podcasts - BBC Radio 4
@@ -345,6 +402,16 @@ const press = [
     category: { title: 'podcasts', subcategory: 'Le Labo des Savoirs' },
   },
 
+  // Podcasts - Braincast (Cerveau&Psycho)
+  {
+    id: 42,
+    title: 'Braincast 24 : Soigner avec les psychédéliques',
+    href: 'https://www.cerveauetpsycho.fr/sr/braincast/braincast-24-soigner-avec-les-psychedeliques-avec-lucie-berkovitch-28953.php',
+    dateKey: 'dates.item42',
+    datetime: '2026-03-17',
+    category: { title: 'podcasts', subcategory: 'Braincast (Cerveau&Psycho)' },
+  },
+
   // Vidéos - Canal +
   {
     id: 27,
@@ -373,6 +440,32 @@ const press = [
     dateKey: 'dates.item29',
     datetime: '2025-01-06',
     category: { title: 'videos', subcategory: 'Le Blob' },
+  },
+
+  // Vidéos - TEDx, Mieux, Paris-Saclay Summit (nouveaux)
+  {
+    id: 34,
+    title: 'TEDxAgroParisTech : Psychedelics: Treatments of the Future',
+    href: 'https://www.youtube.com/watch?v=W2W-c_OMGxU',
+    dateKey: 'dates.item34',
+    datetime: '2026-09-30',
+    category: { title: 'videos', subcategory: 'TEDx' },
+  },
+  {
+    id: 35,
+    title: 'Mieux : émission MIND (saison 2, épisode 2)',
+    href: 'https://www.youtube.com/watch?v=E2Tt5BaPVdA',
+    dateKey: 'dates.item35',
+    datetime: '2026-09-22',
+    category: { title: 'videos', subcategory: 'Mieux' },
+  },
+  {
+    id: 36,
+    title: 'Paris-Saclay Summit : Dépression : les promesses des psychédéliques',
+    href: 'https://www.youtube.com/watch?v=sjWvdIqL2wE',
+    dateKey: 'dates.item36',
+    datetime: '2026-03-01',
+    category: { title: 'videos', subcategory: 'Le Point' },
   },
 
   // Événements grand public
@@ -435,9 +528,12 @@ export default function Press() {
     'publicEvents',
   ];
 
+  // Tri du plus récent au plus ancien (les sous-catégories sont ordonnées selon leur article le plus récent)
+  const sortedPress = [...press].sort((a, b) => b.datetime.localeCompare(a.datetime));
+
   const groupedByCategory = categories.map(category => ({
     category,
-    items: press.filter(item => item.category.title === category),
+    items: sortedPress.filter(item => item.category.title === category),
   })).filter(group => group.items.length > 0);
 
   // Grouper par sous-catégorie au sein de chaque catégorie

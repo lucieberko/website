@@ -44,7 +44,12 @@
         "title": "Tribune : Avant de mourir, peut-on mieux vivre ? Pour un accès compassionnel aux psychédéliques en fin de vie",
         "description": "Dans cette Tribune, nous défendons l'accès compassionnel aux psychédéliques en contexte de fin de vie.",
         "category" : "Tribune dans le journal Le Monde"
-      }
+      },
+    "pub4": {
+      "title": "TEDxAgroParisTech : Psychedelics: Treatments of the Future",
+      "description": "Conférence TEDx sur les avancées de la recherche et le rôle émergent des psychédéliques dans le traitement de certains troubles mentaux.",
+      "category": "Conférence TEDx"
+    }
     }
     },
   "ContactPage": {
@@ -66,7 +71,10 @@
       },
       "itw3": {
         "description": "Interview en longueur sur les psychédéliques, leur histoire et l'état actuel de la recherche."
-      }
+      },
+    "itw4": {
+      "description": "Conférence TEDx : les avancées de la recherche sur les psychédéliques et leur place dans la médecine de demain."
+    }
     },
     "title": "Communications\nnon-académiques",
     "subtitle": "Retrouvez quelques-unes de mes participations dans les médias et la presse.",
@@ -112,7 +120,17 @@
       "item30": "2024",
       "item31": "2023",
       "item32": "10 mars 2025",
-      "item33": "27 nov. 2025"
+      "item33": "27 nov. 2025",
+      "item34": "30 sept. 2026",
+      "item35": "22 sept. 2026",
+      "item36": "01 mars 2026",
+      "item37": "18 janv. 2026",
+      "item38": "26 juin 2026",
+      "item39": "05 mars 2026",
+      "item40": "12 oct. 2026",
+      "item41": "21 sept. 2026",
+      "item42": "17 mars 2026",
+      "item43": "02 sept. 2026"
     }
   },
   "PublicationsPage": {

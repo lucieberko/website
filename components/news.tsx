@@ -3,7 +3,16 @@
 import { useTranslations } from 'next-intl';
 
 const posts = [
-
+  {
+    id: 4,
+    titleKey: 'pub4.title',
+    href: 'https://www.youtube.com/watch?v=W2W-c_OMGxU',
+    descriptionKey: 'pub4.description',
+    imageUrl: 'https://img.youtube.com/vi/W2W-c_OMGxU/maxresdefault.jpg',
+    date: '30 Sep 2026',
+    datetime: '2026-09-30',
+    categoryKey: 'pub4.category'
+  },
   {
     id: 1,
     titleKey: 'pub1.title',
@@ -52,7 +61,7 @@ export default function News() {
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {posts.map((post) => (
+          {posts.slice(0, 3).map((post) => (
             <article key={post.id} className="flex flex-col items-start justify-between">
             <a
               href={post.href}

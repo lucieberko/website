@@ -105,6 +105,49 @@ export function Featured() {
 
 const publications = [
   {
+    title: 'Psychedelics and suicidality: A double-edged sword - risks, mechanisms, and moving forward',
+    authors: 'Mallevays, M., Berkovitch, L.',
+    journal: 'European Neuropsychopharmacology',
+    href: 'https://doi.org/10.1016/j.euroneuro.2026.113878',
+    date: '2026',
+  },
+  {
+    title: 'Emotional Responses (Intensity/Valence) Fulfill RDoC Criteria but Remain Excluded From Diagnostic Classifications of Mood Disorders',
+    authors: 'Henry, C., Müh, C., de Badts, C.-H., Alonso, M., Berkovitch, L.',
+    journal: 'Bipolar Disorders',
+    href: 'https://doi.org/10.1111/bdi.70182',
+    date: '2026',
+  },
+  {
+    title: 'Ketamine Alters Tuning of Neural and Behavioral Spatial Working Memory Precision',
+    authors: 'Rahmati, M., Moujaes, F., Suljič, N. P., Ji, J. L., Berkovitch, L., Lee, K., et al., Anticevic, A.',
+    journal: 'Biological Psychiatry',
+    href: 'https://www.sciencedirect.com/science/article/pii/S0006322326015751',
+    date: '2026',
+  },
+  {
+    title: 'Trauma re-experiencing episodes during esketamine treatment in patients with treatment-resistant depression and comorbid PTSD: a retrospective case series',
+    authors: 'Rothärmel, M., Mekaoui, L., Kazour, F., et al., Laurin, A., Berkovitch, L.',
+    journal: 'European Journal of Psychotraumatology',
+    href: 'https://doi.org/10.1080/20008066.2025.2609425',
+    date: '2026',
+  },
+  {
+    title: 'Effort Aversion and Reward Sensitivity in Schizophrenia: Computational Phenotyping of Motivational Deficits across Behavioral Tasks',
+    authors: 'Pigeon, E., Smadja, S., Berkovitch, L., et al., Pessiglione, M., Vinckier, F.',
+    journal: 'Schizophrenia Bulletin',
+    href: 'https://doi.org/10.1093/schbul/sbaf252',
+    date: '2026',
+  },
+  // TODO : L'Encéphale 2026 — titre et auteurs à compléter, puis décommenter
+  // {
+  //   title: '...',
+  //   authors: '...',
+  //   journal: "L'Encéphale",
+  //   href: 'https://www.sciencedirect.com/science/article/abs/pii/S0013700626001867',
+  //   date: '2026',
+  // },
+  {
     title: 'Is there an independant anti-suicidal effect of esketamine in treatment resistant depression?',
     authors: 'Danon, M., Ostronoff G., Petit, A.C., de Maricourt, P., Kopec J., Mekaoui L., Gorwood P., Berkovitch, L.',
     journal: 'Journal of Affective Disorders',
@@ -312,6 +355,11 @@ const publications = [
 export function Publications() {
   const t = useTranslations('PublicationsPage.all');
 
+  // Tri du plus récent au plus ancien (tri stable : l'ordre est conservé au sein d'une même année)
+  const sortedPublications = [...publications].sort(
+    (a, b) => Number(b.date) - Number(a.date)
+  );
+
   return (
     <>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-16">
@@ -325,8 +373,8 @@ export function Publications() {
         <div className="mx-auto max-w-2xl">
 
           <ul role="list" className="divide-y divide-gray-100">
-            {publications.map((publication) => (
-              <li key={publication.title} className="relative flex justify-between gap-x-6 py-5">
+            {sortedPublications.map((publication, index) => (
+              <li key={`${index}-${publication.title}`} className="relative flex justify-between gap-x-6 py-5">
                 <div className="flex min-w-0 gap-x-4">
                   <div className="min-w-0 flex-auto">
                     <p className="text-sm/6 font-semibold text-gray-900">

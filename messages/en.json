@@ -44,7 +44,12 @@
         "title": "Tribune : Avant de mourir, peut-on mieux vivre ? Pour un accès compassionnel aux psychédéliques en fin de vie",
         "description": "In this tribune, we advocate for compassionate access to psychedelics in end-of-life contexts (in French).",
         "category" : "Tribune Le Monde"
-      }
+      },
+    "pub4": {
+      "title": "TEDxAgroParisTech: Psychedelics: Treatments of the Future",
+      "description": "TEDx talk on research advances and the emerging role of psychedelics in treating certain mental disorders.",
+      "category": "TEDx talk"
+    }
     }
   },
   "ContactPage": {
@@ -66,7 +71,10 @@
       },
       "itw3": {
         "description": "An in-depth interview on psychedelics, their history, and the current state of research."
-      }
+      },
+    "itw4": {
+      "description": "TEDx talk on advances in psychedelic research and their place in the medicine of tomorrow."
+    }
     },
     "title": "Non-academic\ncommunications",
     "subtitle": "Find some of my participations in the media and press.",
@@ -112,7 +120,17 @@
       "item30": "2024",
       "item31": "2023",
       "item32": "Mar 10, 2025",
-      "item33": "Nov 27, 2025"
+      "item33": "Nov 27, 2025",
+      "item34": "Sep 30, 2026",
+      "item35": "Sep 22, 2026",
+      "item36": "Mar 01, 2026",
+      "item37": "Jan 18, 2026",
+      "item38": "Jun 26, 2026",
+      "item39": "Mar 05, 2026",
+      "item40": "Oct 12, 2026",
+      "item41": "Sep 21, 2026",
+      "item42": "Mar 17, 2026",
+      "item43": "Sep 02, 2026"
     }
   },
   "PublicationsPage": {
