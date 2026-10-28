@@ -37,6 +37,18 @@ export default function Contact() {
             <span>ghu-paris.fr</span>
           </p>
         </div>
+
+        {/* Section bad trip */}
+        <div className="mt-24">
+          <p className="text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-2xl">
+            {t('badTripRequests')}
+          </p>
+          <p className="mt-12 text-lg/8 font-medium font-mono bg-clip-text text-transparent bg-gradient-to-r from-amber-500 via-emerald-500 to-purple-500">
+            <span>consultation-badtrip</span>
+            <span className="mx-2">@</span>
+            <span>ghu-paris.fr</span>
+          </p>
+        </div>
       </div>
     </div>
   );

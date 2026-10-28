@@ -105,6 +105,13 @@ export function Featured() {
 
 const publications = [
   {
+    title: "French psychiatric caregivers' perceptions of psychedelics: A national survey",
+    authors: 'Buot, A., Burdairon, J.-D., Mallet, L., Gaillard, R., Rolland, B., Berkovitch, L.',
+    journal: "L'Encéphale",
+    href: 'https://doi.org/10.1016/j.encep.2026.06.015',
+    date: '2026',
+  },
+  {
     title: 'Psychedelics and suicidality: A double-edged sword - risks, mechanisms, and moving forward',
     authors: 'Mallevays, M., Berkovitch, L.',
     journal: 'European Neuropsychopharmacology',
@@ -139,14 +146,6 @@ const publications = [
     href: 'https://doi.org/10.1093/schbul/sbaf252',
     date: '2026',
   },
-  // TODO : L'Encéphale 2026 — titre et auteurs à compléter, puis décommenter
-  // {
-  //   title: '...',
-  //   authors: '...',
-  //   journal: "L'Encéphale",
-  //   href: 'https://www.sciencedirect.com/science/article/abs/pii/S0013700626001867',
-  //   date: '2026',
-  // },
   {
     title: 'Is there an independant anti-suicidal effect of esketamine in treatment resistant depression?',
     authors: 'Danon, M., Ostronoff G., Petit, A.C., de Maricourt, P., Kopec J., Mekaoui L., Gorwood P., Berkovitch, L.',
@@ -211,13 +210,6 @@ const publications = [
     date: '2025',
   },
   {
-    title: 'Ketamine Alters Tuning of Neural and Behavioral Spatial Working Memory Precision',
-    authors: 'Rahmati, M., Moujaes, F., Suljič, N. P., Ji, J. L., Berkovitch, L., Lee, K., et al., Anticevic, A.',
-    journal: 'bioRxiv',
-    href: 'https://doi.org/10.1101/2025.02.10.637233',
-    date: '2025',
-  },
-  {
     title: 'Mixed features in mood episodes: Mismatch between intensity and valence in emotional responses',
     authors: 'Henry C., Berkovitch L.',
     journal: 'European Neuropsychopharmacology',
@@ -229,13 +221,6 @@ const publications = [
     authors: 'Lee, K., Ji, J. L., Fonteneau, C., Berkovitch, L., Rahmati, M., Pan, L., Repovš, G., Krystal, J. H., Murray, J. D., Anticevic, A.',
     journal: 'PLOS Biology',
     href: 'https://doi.org/10.1371/journal.pbio.3002808',
-    date: '2024',
-  },
-  {
-    title: 'Esketamine-induced post-traumatic stress disorder flashbacks during treatment-resistant depression indication: Is it just a side effect?',
-    authors: 'Rothärmel, M., Mekaoui, L., Kazour, F., Herrero, M., Beetz-Lobono, E.-M., Lengvenyte, A., Holtzmann, J., Raynaud, P., Cuenca, M., Bulteau, S., Maricourt, P. de, Husson, T., Olié, E., et al., Berkovitch, L.',
-    journal: 'medRxiv',
-    href: 'https://doi.org/10.1101/2024.01.09.24300998',
     date: '2024',
   },
   {

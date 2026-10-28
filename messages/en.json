@@ -7,7 +7,7 @@
     "about": "About",
     "publications": "Publications",
     "conf": "Talks",
-    "press": "Press",
+    "press": "Media",
     "resume": "Resume",
     "contact": "Contact me",
     "links": "Useful links",
@@ -57,14 +57,15 @@
     "intro": "Whether it be for research collaborations, speaking engagements, or just to say hello, feel free to reach out via email at",
     "or": "or at",
     "addressTitle": "Dr Lucie Berkovitch,",
-    "psychedelicStudies": "For any inquiries regarding psychedelic studies"
+    "psychedelicStudies": "For any inquiries regarding psychedelic studies",
+    "badTripRequests": "If you need help after a bad trip"
   },
   "PressPage": {
     "featured": {
       "title": "Video interviews",
       "subtitle": "Watch my most popular interviews available on video.",
       "itw1": {
-        "description": "Short questions-short answers about psychedelics and psychiatry in our society."
+        "description": "Paris-Saclay Summit talk: the promises of psychedelics in the treatment of depression."
       },
       "itw2": {
         "description": "Interview about the therapeutic efficacy of psychedelics in psychiatry."
@@ -88,7 +89,7 @@
       "publicEvents": "Public Events"
     },
     "dates": {
-      "item1": "Oct 01, 2025",
+      "item1": "Oct 17, 2025",
       "item2": "Jul 05, 2025",
       "item3": "Jul 20, 2023",
       "item4": "Nov 08, 2025",
